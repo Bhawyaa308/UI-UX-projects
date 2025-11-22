@@ -1,0 +1,99 @@
+/* Dark theme background and text */
+body {
+    background-color: #121212;
+    color: #f1f1f1;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: #ff9800;
+}
+
+/* Intro text */
+.intro-text {
+    font-size: 16px;
+    white-space: pre-wrap;
+    color: #ccc;
+}
+
+/* Links */
+a {
+    color: #4db6ac;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: #1e1e1e;
+}
+
+table, th, td {
+    border: 1px solid #444;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: #ff9800;
+}
+
+/* Skills list */
+.skills-list {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li {
+    margin: 8px 0;
+}
+
+.skills-list i {
+    color: #ff9800;
+    margin-right: 8px;
+}
+
+/* Projects */
+.project {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #1e1e1e;
+    border-left: 4px solid #ff9800;
+}
+
+.project a {
+    color: #4db6ac;
+}
+
+/* Contact section */
+#contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+#contact ul li {
+    margin: 5px 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 10px;
+    border-top: 1px solid #444;
+    color: #888;
+    font-size: 14px;
+}
